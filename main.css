@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+h3 {
+    line-height: 200%;
+}
+
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -99,4 +103,13 @@ img{
         text-align: center;
         /* margin: 10px; */
     }
+}
+
+.names a {
+    transition: .3s;
+}
+
+.names a:hover {
+ color: rgb(255, 208, 22);
+
 }
