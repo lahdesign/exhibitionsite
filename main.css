@@ -79,6 +79,12 @@ body{
 .boxLink{
     font-size: 20px;
     text-decoration: underline;
+    transition: .3s;
+}
+
+.boxLink:hover{
+
+    color:rgb(224, 201, 109);
 }
 
 img{
@@ -95,7 +101,7 @@ img{
 
 
 .footer{
-    display: flex:
+    display: flex;
     justify-content: center;
     padding: 35px 0 35px 0;
     margin-top: 50px;
@@ -126,6 +132,7 @@ img{
     }
 
     .box{
+       
         flex-direction: column;
     }
 
@@ -136,4 +143,5 @@ img{
         /* margin: 10px; */
     }
 }
+
 
