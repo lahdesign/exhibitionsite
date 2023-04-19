@@ -57,7 +57,7 @@ body{
 }
 
 .names a:hover {
- color: rgb(224, 201, 109);
+ color: rgb(255, 102, 0);
 
 }
 
@@ -88,7 +88,7 @@ body{
 
 .boxLink:hover{
 
-    color:rgb(224, 201, 109);
+    color:rgb(255, 102, 0);
 }
 
 img{
@@ -143,6 +143,12 @@ img{
         background-image:url("bg-mobile.jpg");
     }
     
+    .container {
+
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 90%;
+    }
+  
     .title{
         width: 100%;
         height: auto;
