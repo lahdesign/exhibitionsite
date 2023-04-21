@@ -140,7 +140,10 @@ img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image:url("bg-mobile.jpg");
+        background-image:url("bg-mobile.jpg") center left no-repeat;
+	    background-size: cover;
+	    background-attachment: fixed;
+        
     }
     
     .container {
