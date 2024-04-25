@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    border: solid 3px blue;
 }
 
 h1 {
@@ -26,6 +27,11 @@ p {
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+  }
+
+.boxLink
+  {
+    margin-right: 15px;
   }
 
 body{
