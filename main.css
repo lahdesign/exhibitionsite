@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 }
 
+h1 {
+    margin-bottom: 15px;
+}
 
 h3 {
     font-weight: 400;
